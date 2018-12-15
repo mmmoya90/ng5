@@ -1,0 +1,57 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 50% auto;
+    font-weight: bold;
+}
+.col{
+        padding: .4em 1.3em;
+}
+
+.color-dark{
+
+    background: #0a578a;
+    font-weight: bold;
+}
+
+.normal
+{
+    padding: .2em 0em;
+    font-weight: lighter;
+
+}
+
+.color-light{
+    background: #57b3f1;
+    font-weight: lighter;
+}
+
+input.txt
+{
+    border: 0;
+    padding: 1em;
+    width: 80%;
+    margin-bottom:2em;
+}
+
+input.btn{
+    border: 0;
+    display: block;
+    padding: 1em 2em;
+    background: #83f8b0;
+}
+
+
+input.btn2{
+    border: 0;
+    display: block;
+    padding: 1em 2em;
+    background: #dd3232;
+}
+
+.life-container{
+    background: #5046af;
+    padding: .5em;
+    cursor: pointer;
+    font-weight: lighter;
+}
